@@ -1,0 +1,22 @@
+2024-08-23 15:23:28,394 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-23 15:25:47,386 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringSecurityLerning:0.0.1-SNAPSHOT @ D:\projects\SpringSecurityLerning\pom.xml.
+2024-08-23 15:25:48,827 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.userbackend:UserManagementBackend:0.0.1-SNAPSHOT @ D:\projects\UserManagementSystem\UserManagementBackend\pom.xml.
+2024-08-23 15:25:52,669 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserManagementBackend/src/main/java
+2024-08-23 15:25:52,673 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserManagementBackend/src/main/resources
+2024-08-23 15:25:52,679 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserManagementBackend/src/main/resources
+2024-08-23 15:25:52,686 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserManagementBackend/src/test/java
+2024-08-23 15:25:52,688 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserManagementBackend/src/test/resources
+2024-08-23 15:25:53,942 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.5/jjwt-impl-0.12.5-sources.jar
+2024-08-23 15:25:54,197 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.5/jjwt-impl-0.12.5-sources.jar
+2024-08-23 15:25:54,214 [Worker-6: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-impl:0.12.5
+2024-08-23 15:25:54,446 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.5/jjwt-jackson-0.12.5-sources.jar
+2024-08-23 15:25:54,873 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.5/jjwt-jackson-0.12.5-sources.jar
+2024-08-23 15:25:54,880 [Worker-6: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-jackson:0.12.5
+2024-08-23 15:25:54,894 [Worker-6: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-impl:0.12.5
+2024-08-23 15:25:54,901 [Worker-6: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-jackson:0.12.5
+2024-08-23 15:25:55,748 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringSecurityLerning/src/main/java
+2024-08-23 15:25:55,749 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityLerning/src/main/resources
+2024-08-23 15:25:55,754 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityLerning/src/main/resources
+2024-08-23 15:25:55,762 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringSecurityLerning/src/test/java
+2024-08-23 15:25:55,767 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityLerning/src/test/resources
+2024-08-23 15:25:56,432 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 16 sec
