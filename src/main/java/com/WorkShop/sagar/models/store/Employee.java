@@ -1,4 +1,4 @@
-package com.WorkShop.sagar.models;
+package com.WorkShop.sagar.models.store;
 
  import java.time.LocalDate;
  import java.util.List;

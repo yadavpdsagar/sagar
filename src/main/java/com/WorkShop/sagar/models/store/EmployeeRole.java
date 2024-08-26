@@ -1,4 +1,4 @@
-package com.WorkShop.sagar.models;
+package com.WorkShop.sagar.models.store;
 
 public enum EmployeeRole {
     USER, ADMIN

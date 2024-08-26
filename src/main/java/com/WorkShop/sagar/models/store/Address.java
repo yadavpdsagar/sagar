@@ -1,4 +1,4 @@
-package com.WorkShop.sagar.models;
+package com.WorkShop.sagar.models.store;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
