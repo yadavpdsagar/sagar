@@ -6,20 +6,27 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
-@Table(name = "jpa_table" )
+@Table(name = "jpa_student" )
 public class Student {
     @Id
     @GeneratedValue
-    private  Integer id;
+    private  Integer student_id;
     private String StudentName;
     private String about;
 
     @OneToOne(mappedBy = "student",  cascade = CascadeType.ALL)
     private  Laptop laptop;
 
+
+    //many address of one student
+    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL)
+    private List<SAddress> sAddressList=new ArrayList<>();
 }
