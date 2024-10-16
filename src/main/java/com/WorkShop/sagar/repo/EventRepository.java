@@ -4,6 +4,7 @@ import com.WorkShop.sagar.models.Calender.Event;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
 
@@ -11,7 +12,7 @@ public interface EventRepository  extends JpaRepository<Event, Long> {
 
     List<Event> findByDate(LocalDate date);
 
-
+    List<Event> findByDateBetween(LocalDate startDate, LocalDate endDate);
 
 
 
