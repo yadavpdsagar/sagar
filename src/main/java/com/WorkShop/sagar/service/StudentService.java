@@ -1,6 +1,6 @@
 //package com.WorkShop.sagar.service;
 //
-//import com.WorkShop.sagar.models.collage.Student;
+//import com.WorkShop.sagar.models.collage.StudentScho;
 //import com.WorkShop.sagar.repo.StudentRepo;
 //import org.springframework.stereotype.Service;
 //
@@ -10,16 +10,16 @@
 //
 //    StudentRepo studentRepo;
 //
-//    public Student getSave() {
-//        Student student= new Student();
+//    public StudentScho getSave() {
+//        StudentScho student= new StudentScho();
 //        student.setStudentName("sagar prasad yadav");
 //        student.setAbout("thshisdemoest");
 //        studentRepo.save(student);
 //        return student;
 //    }
 //
-////    Student student= new Student();
+////    StudentScho student= new StudentScho();
 ////		student.setStudentName("sagar prasad yadav");
 ////		student.setAbout("thshisdemoest");
-////    Student save= studentRepo.save(student);
+////    StudentScho save= studentRepo.save(student);
 //}
